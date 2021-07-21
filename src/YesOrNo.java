@@ -1,10 +1,16 @@
 /**
+ * Convert boolean values to strings 'Yes' or 'No'.
  * @author Stanislav Rakitov
  */
 class YesOrNo
 {
-  public static String boolToWord(boolean b)
-  {
+  /**
+   * Convert boolean values to strings 'Yes' or 'No'.
+   *
+   * @param b boolean value
+   * @return "Yes" or "No"
+   */
+  public static String boolToWord(boolean b) {
     return b ? "Yes" : "No";
   }
 
