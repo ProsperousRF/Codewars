@@ -16,5 +16,8 @@ public class Chocolate {
     if (n <= 1 && m <= 1 ) return 0;
     int res =(n * m - 1);
     return Math.max(res, 0);
+
+    // And the shorter version
+    // return Math.max(m * n -1, 0);
   }
 }
