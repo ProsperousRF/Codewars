@@ -13,6 +13,8 @@
  */
 public class Chocolate {
   public static int breakChocolate(int n, int m) {
-    return 0;
+    if (n <= 1 && m <= 1 ) return 0;
+    int res =(n * m - 1);
+    return Math.max(res, 0);
   }
 }
